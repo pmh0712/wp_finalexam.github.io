@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+.introduce{
+    padding-bottom: 30px;
+}
+
+.rule{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rules{
+    padding-bottom: 30px;
+}
+
+.start{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.puzzle{
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    background-color: antiquewhite;
+}
+
+.peg1{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.peg2{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    width: 300px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.peg3{
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    width: 300px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.pole{
+    position: absolute;
+    left: 146px;
+    top: 100px;
+    width: 6px;
+    height: 350px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.disk1{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+    width: 80px;
+    height: 50px;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.disk2{
+    position: absolute;
+    left: 70px;
+    top: 350px;
+    width: 160px;
+    height: 50px;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.disk3{
+    position: absolute;
+    left: 30px;
+    top: 400px;
+    width: 240px;
+    height: 50px;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+#clear{
+    position: absolute;
+    font-size: 100px;
+    left:496px;
+    display: none;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    width: 280px;
+    height: 30px;
+    left:460px;
+    top:150px;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+#reset{
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+
+}

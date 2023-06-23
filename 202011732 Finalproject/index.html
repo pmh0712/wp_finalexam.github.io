@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 하노이의 탑 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>하노이의 탑 퍼즐을 풀어보자!</h1>
+    <h2>하노이의 탑이란? </h2>
+    <p class="introduce">3개의 기둥과 3개의 원반으로 구성되며, 첫 번째 기둥에 있는 3개의 원반을 세 번째 기둥으로 모두 옮기는 것을 목표로 하는 퍼즐이다.</p>
+    <p class="rule">하노이의 탑은 다음과 같은 규칙을 따른다.</p>
+    <ul class="rules">
+        <li>한 번에 한 원반만 옮길 수 있다.</li>
+        <li>항상 밑에 있는 원반이 위에 있는 원반보다 크다, 즉 작은 원반 위에 큰 원반을 올릴 수 없다.</li>
+    </ul>
+    <p class="start">이 규칙을 지켜 하노이의 탑 퍼즐을 풀어보자!</p>
+    <div class="puzzle">
+        <div class="peg1" id="peg1" onclick="return select1()">
+            <div class="pole" size="z"></div>
+            <div class="disk3" size="c"></div>
+            <div class="disk2" size="b"></div>
+            <div class="disk1" size="a"></div>
+        </div>
+        <div class="peg2" id="peg2" onclick="return select2()">
+            <div class="pole" size="z"></div>
+        </div>
+        <div class="peg3" id="peg3" onclick="return select3()">
+            <div class="pole" size="z"></div>
+        </div>
+        <p id="clear">성공!</p>
+        <a id="nextlevel" href="extra.html">더 어려운 버전하기!</a>
+    </div>
+    <script src="main.js"></script>
+</body>

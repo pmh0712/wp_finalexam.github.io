@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 더 어렵게! </title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <p class="start">더 어려워진 하노이의 탑 퍼즐을 풀어보자!</p>
+    <div class="puzzle">
+        <div class="peg1" id="peg1" onclick="return select1()">
+            <div class="pole" size="z"></div>
+            <div class="disk5" size="e"></div>
+            <div class="disk4" size="d"></div>
+            <div class="disk3" size="c"></div>
+            <div class="disk2" size="b"></div>
+            <div class="disk1" size="a"></div>
+        </div>
+        <div class="peg2" id="peg2" onclick="return select2()">
+            <div class="pole" size="z"></div>
+        </div>
+        <div class="peg3" id="peg3" onclick="return select3()">
+            <div class="pole" size="z"></div>
+        </div>
+        <p id="clear">성공!</p>
+    </div>
+    <script src="main1.js"></script>
+</body>
